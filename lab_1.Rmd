@@ -1,0 +1,19 @@
+---
+title: "ESM244_lab1"
+author: "Katheryn Moya"
+date: "1/12/2023"
+output: html_document
+---
+
+```{r setup, include=TRUE, echo = TRUE, warning = FALSE, message = FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+
+library(tidyverse)
+library(here)
+library(sf) #nice clean package for working with spatial data
+library(tmap) # good for visualizing maps
+
+```
+
+
+
